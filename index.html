@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+    <link rel="stylesheet" href="style.css">
+    <script src="script .js" defer></script>
+    <title>Gerador de Senha</title>
+</head>
+<body>
+    <div id=" container">
+   <img src="illustration.svg" alt=" Imagem de um cadeado" id="senhaImg">
+   <h1 id="title">Gerar Senha</h1>
+
+   <div id="senhacontainer">
+    <span id="password" >jjjj</span>
+    <button id="copy">
+        <i class="fa-solid fa-copy"></i>
+    </button>
+   </div>
+
+   <div id="senhaItens">
+    <div class="itens">
+        <input  id="size" nome="size" type= "number" >
+        <label for="size">
+            Quantidade de Caracteres
+        </label>
+    </div>
+    
+    <div class="item">
+        <input id="includUpperCase" type="checkbox" name="includUpperCase" >
+        <label for="includUpperCase">
+            Incluir letra maiúscula
+        </label>
+    </div>
+    
+    
+    <div class="item">
+        <input id="includLowerCase" type="checkbox" name="includLowerCase" >
+        <label for="includLowerCase">
+            Incluir letra minúscula
+        </label>
+    </div>
+    
+    
+    <div class="item">
+        <input id="includNumber" type="checkbox" name="includNumber" >
+        <label for="includNumber">
+            Incluir número
+        </label>
+    </div>
+    
+    
+    <div class="item">
+        <input id="includCaracterEspecial" type="checkbox" name="includCaracterEspecial" >
+        <label for="includCaracterEspecial">
+            Incluir caractere especial
+        </label>
+    </div>
+    
+    <button id="gerador">
+        Gerar Senha
+    </button>
+</div>
+</div>
+
+</div>
+    
+</body>
+</html>
